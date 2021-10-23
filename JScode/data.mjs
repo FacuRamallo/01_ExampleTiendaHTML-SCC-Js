@@ -1,3 +1,26 @@
+export {catPanes};
+export {catTartas};
+export {catBolleria};
+export {categories}
+
+let categories = [
+    {
+        id: 00,
+        img: "/assets/imgs/tarta.png",
+        text: "Tartas"
+    },
+    {
+        id: 01,
+        img: "/assets/imgs/crosaint.png",
+        text: "Bolleria"
+    },
+    {
+        id: 02,
+        img: "/assets/imgs/pan.png",
+        text: "Pan"
+    }
+]
+
 let catPanes = [
     {
         idNum: 0,
@@ -112,7 +135,7 @@ let catTartas = [
         idNum: 01,
         img:"/assets/img-Cards/croissants.png",
         title:"Tarta YYYYYYY",
-        precio:"€1,20",
+        precio:"€1,20",a
     },
     {
         idNum: 02,
