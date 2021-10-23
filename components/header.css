@@ -1,0 +1,56 @@
+header{
+    height: 15vh;
+    width: 100%;
+    background-color:#232222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.LogoITBakery{
+    height: 70px;
+    width: auto;
+}
+.text{ 
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-family: 'Ruda', sans-serif;
+text-align: center;
+width: 80%;
+}
+.SmallText{
+font-size: 10px;
+color: rgb(255, 255, 255);
+font-family: 'Ruda', sans-serif;
+}
+.SectionBox{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    justify-content: center;
+}
+.CartButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    background:#292727 ;
+    box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.25),
+                 -1px -1px 2px rgba(253, 253, 253, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.logoCart{
+    width:20px;
+    height:20px;
+}
+.logoCart2{
+    width:25px;
+    height:25px;
+
+}
+

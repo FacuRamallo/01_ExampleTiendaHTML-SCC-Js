@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footerText {
+    font-size: 15px;
+    font-family: 'Rouge Script', cursive;
+    color: white;
+    text-align: center;
+    width: 80%;
+ }
+ .socialMediaLogo{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     width: 20%;
+ }
+ .logoFooter {
+     width: 30px;
+     height: 30px;
+ }
+ 
+ @media(min-width: 451px){
+     footer{
+         background-color: black;
+         height: 20vh;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;  
+     }
+     .socialMedia{
+         display: flex;
+         justify-content: flex-end;
+         margin-right: 30px;
+     }
+     .footerText{
+         color: white;
+         margin-right: 30px;
+         margin-top: 10px;
+         margin-bottom: 20px;
+     }
+     .logoMedia{
+         width: 45px;
+         height: 45px;
+         margin: 10px;
+     }
+ 
+ }
