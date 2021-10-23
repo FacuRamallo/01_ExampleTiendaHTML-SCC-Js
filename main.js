@@ -224,5 +224,13 @@ function OpenCatList(id){
     ReadArrayAndPrintbySectionID(arrayToDisplay,AddCardscodebyID,"main_ListProducts");
 }
 
+//Escribo Codigo HTML en Main ID "main_ProductCard"
+
+funtion OpenProductCard(id){
+    
+}
+
+
+
 
 
