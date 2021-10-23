@@ -8,15 +8,88 @@ main{
     overflow-y: scroll;
    
 }
+.displaynone{
+    display:none !important;
+}
+
+.displayon{
+    display:inherit !important;
+}
 
 /*Clases para main_categories*/ 
+.CatButton{
+    width: 340px;
+    height: 50px;
+    border-radius: 44px;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    background:#232222 ;
+    border:none;
+    box-shadow:  -1px -1px 2px rgba(253, 253, 253, 0.25),
+    2px 2px 2px rgba(0, 0, 0, 0.25);
+    justify-content: center;     
+}                          
+.ButtonImg{
+    align-self: center;
+   margin-right:3%   
+}
+.ButtonText{
+    align-self: center;
+    margin-left: 5%;
+    font-family: 'Sahitya';
+    font-size: large;
+    color: white;
+}
 
+/*Clases para main_catPanes*/ 
+.boxCards{
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    background:#232222 ;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-content: flex-start;  
+    display:none;
+}
 
+.cards-main{
+    flex-direction: row;
+    flex-wrap: wrap;
+        
+}
 
+.card{
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background: #272525;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(0 0 0 / 25%), -2px -2px 1px rgb(255 255 255 / 21%);
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center;
+}
 
+.card-body{
+    border-radius: inherit;
+    height: 100%;
+    background-color: blue;
+}
+.imgCards{
+    width: 120px;
+    height:80px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 
-/*Clases paramain_catPanes*/ 
-
+    }
 
 
 
