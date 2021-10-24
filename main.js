@@ -212,7 +212,7 @@ function AddCategoriesButtons(id,i){
 
 function AddCardscodebyID(id,i){
     boxcard = document.getElementById(id)
-    boxcard.innerHTML +=    `<section class="cards-main" onclick="openProductCard(${i.idNum})">
+    boxcard.innerHTML +=    `<section onclick="openProductCard(${i.idNum})">
                                     <button class="card">
                                         <div class="card-body">
                                             <img class="imgCards" src="${i.img}" alt="">

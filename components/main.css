@@ -1,10 +1,7 @@
 main{
     height: 70vh;
     width: 100%;
-    display: flex; 
     background:#232222 ; 
-    justify-content: center;
-    align-items: center;
     overflow-y: scroll;
    
 }
@@ -17,13 +14,20 @@ main{
 }
 
 /*Clases para main_categories*/ 
+.main_categories{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
 .CatButton{
     width: 340px;
     height: 50px;
     border-radius: 44px;
-    margin-top: 5%;
-    margin-bottom: 5%; 
-    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 2%; 
     display: flex;
     flex-direction: row;
     background:#232222 ;
@@ -44,8 +48,8 @@ main{
     color: white;
 }
 
-/*Clases para main_catPanes*/ 
-.boxCards{
+/*Clases para main_ListProducts*/ 
+.MainCards{
     height: 70vh;
     width: 100%;
     display: flex; 
@@ -53,13 +57,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;  
     align-content: flex-start;  
-    display:none;
-}
-
-.cards-main{
-    flex-direction: row;
-    flex-wrap: wrap;
-        
+    
 }
 
 .card{
@@ -90,17 +88,86 @@ main{
     margin-bottom: 10px;
 
     }
-
-
-
-
-
-/*Clases para main_catTartas*/ 
-
-
-
-
-
-
-
-/*Clases para main_catBolleria*/ 
+    .card-title{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .card-text{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 10px;
+    }
+    
+    .CardButton{
+        width:82px;
+        height:27px;
+        border-radius: 44px;
+        border:none;
+        background-color: #2F2D2D;
+        color: white;
+        box-shadow:  5px 5px 2px rgba(0, 0, 0, 0.25),
+        -2px -2px 2px rgba(253, 253, 253, 0.25);
+        font-family: 'sahitya';
+        margin-bottom: 10px;
+    }
+    
+    /*css main de productCard*/
+    
+    .boxProduct{
+        display:none;
+        flex-direction: column;
+        justify-content: inherit;
+    }
+    
+    .productCard{
+        display: flex;
+        flex-direction: inherit ;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 330px;
+        height: 330px;
+        border: none;
+        background:#272525;
+        border-radius: 20px;
+        box-shadow:  -2px -2px 1px rgba(255, 255, 255, 0.21),
+                     5px 5px 2px rgba(0, 0, 0, 0.25);
+    }
+    
+    .pCardImgYPrecio{
+        display: flex;
+        flex-direction: row ;
+        align-items: center;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .pImgBox{
+        
+    }
+    
+    .pProdYPrice{
+        
+    }
+    
+    .cardProductDescription{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 12px;
+    }
+    
+    .CloseButton{
+        width:25px;
+        height:27px;
+        border-radius: 44px;
+        border:none;
+        background-color: #2F2D2D;
+        color: white;
+        box-shadow:  5px 5px 2px rgba(0, 0, 0, 0.25),
+        -2px -2px 2px rgba(253, 253, 253, 0.25);
+        font-family: 'sahitya';
+        margin-left: 280px;
+        margin-bottom: 20px;
+        
+    }
